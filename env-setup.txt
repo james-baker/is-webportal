@@ -1,6 +1,6 @@
 Machine level setup, starting from fresh Windows 10 environment:
 install VS Code
-  configure VSCode install "Prettier": https://www.gatsbyjs.org/tutorial/part-zero/
+  configure VSCode install "Prettier - Code formatter": https://www.gatsbyjs.org/tutorial/part-zero/
   configure VSCode install bungcip.better-toml
 install git: https://www.atlassian.com/git/tutorials/install-git#windows
 in admin PowerShell: Set-ExecutionPolicy -ExecutionPolicy Unrestricted
