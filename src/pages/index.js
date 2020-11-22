@@ -1,6 +1,8 @@
 import React from "react"
-import "fontsource-open-sans"
+import Layout from "../components/layout"
 
 export default function Home() {
-  return <div style={{ fontFamily: "Open Sans" }}>Hello world!</div>
+  return <Layout>
+    <div>Hello world!</div>
+    </Layout>
 }

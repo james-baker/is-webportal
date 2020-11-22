@@ -5,6 +5,21 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: 'Intentional Society',
+    description: "Organizing towards a vision of our potential",
+  },
+  plugins: [
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'src',
+        path: './src/'
+      }
+    },
+    'gatsby-transformer-remark',
+    'gatsby-transformer-sharp',
+  ],
 }
