@@ -1,6 +1,7 @@
 import React from "react"
-import Layout from "../components/layout"
 import GlobalCSS from "../styles/global.module.css"
+import Layout from "../components/layout"
+import ButtondownSignup from "../components/buttondownsignup"
 
 export default () => (
   <Layout>
@@ -8,6 +9,7 @@ export default () => (
     <div className={GlobalCSS.centerChildren}>
       <div>It starts with intention and awareness.</div>
       <div>Coming soon...</div>
+      <div className={GlobalCSS.centerMe} style={{ minWidth: "300px", maxWidth: "500px"}}><ButtondownSignup/></div>
     </div>
   </Layout>
 )

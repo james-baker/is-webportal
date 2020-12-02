@@ -1,0 +1,41 @@
+.popout {
+  background: #ebedef;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  background: #0069ff;
+  border: 0;
+  border-radius: 0.25em;
+  color: #fff;
+  outline: 0;
+  padding: 0.75em 1em;
+  width: 100%;
+  font-size: 16px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-bottom: 0.5em;
+}
+
+.textarea {
+  border: 1px solid #ced3d9;
+  border-radius: 4px;
+  display: block;
+  padding: 0.75em 1em;
+  width: 100%;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.4em;
+}
+
+.referral {
+  font-size: 12px;
+}
