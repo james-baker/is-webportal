@@ -10,6 +10,13 @@ module.exports = {
     description: "Organizing towards a vision of our potential",
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-gtag',
+      options: {
+        trackingId: 'G-X9MTZGX7EF',
+        head: true,
+      },
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',
     {
