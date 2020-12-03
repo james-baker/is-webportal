@@ -9,7 +9,7 @@ export default () => (
     <div className={GlobalCSS.centerChildren}>
       <div>It starts with intention and awareness.</div>
       <div>Coming soon...</div>
-      <div className={GlobalCSS.centerMe} style={{ minWidth: "300px", maxWidth: "500px"}}><ButtondownSignup/></div>
+      <div className={GlobalCSS.centerMe} style={{ marginTop: "100px", minWidth: "300px", maxWidth: "500px"}}><ButtondownSignup/></div>
     </div>
   </Layout>
 )
