@@ -10,7 +10,7 @@ export default () => (
       onSubmit={() => (window.open('https://buttondown.email/intentionalsociety', 'popupwindow'))}
       className="embeddable-buttondown-form"
     >
-      <label htmlFor="bd-email">Want to hear more? Enter your email:</label>
+      <label htmlFor="bd-email">Want to hear what's next? Enter your email:</label>
       <input type="email" name="email" id="bd-email" className={styles.textarea}></input>
       <input type="hidden" value="1" name="embed"></input>
       <input type="submit" value="Subscribe" className={styles.button}></input>
