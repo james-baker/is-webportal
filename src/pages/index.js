@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import GlobalCSS from "../styles/global.module.css"
 import Layout from "../components/layout"
 import ButtondownSignup from "../components/buttondownsignup"
@@ -10,6 +11,7 @@ export default ({ data }) => (
       style={{ minWidth: "300px", maxWidth: "760px", padding: "20px" }}>
       <div dangerouslySetInnerHTML={{__html: data.pitch.childMarkdownRemark.html}}></div>
       <div className={GlobalCSS.centerMe} style={{ marginTop: "50px", marginBottom: "100px", minWidth: "300px", maxWidth: "500px"}}><ButtondownSignup/></div>
+      <div>Written by <Link to="https://www.bakejam.com">James</Link>, December 2020.</div>
     </div>
   </Layout>
 )
