@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 export default () => (
   <div>
@@ -13,10 +14,13 @@ export default () => (
         <li><a href="https://us02web.zoom.us/meeting/register/tZwkcuqqpjMsH9ZAsWQUBkqCbOQ-6mGbFC9q">Agenda and registration</a></li>
       </ul>
     </ul>
-    <h3>Past Events</h3>
+    <h3>Past Timeline</h3>
     <ul>
-      <li><div style={{textDecoration: "line-through"}}>Informational Session January 10th</div></li>
-      <li><div style={{textDecoration: "line-through"}}>Informational Session December 27th</div></li>
+      <li><div>2021-01-10 Informational Session</div></li>
+      <li><div>2020-12-27 Informational Session</div></li>
+      <li><div>2020-12-19 <Link to="thecall/">Call</Link> text revised</div></li>
+      <li><div>2020-12-05 Website deployed</div></li>
+      <li><div>2020-11-10 Domain name registered</div></li>
     </ul>
   </div>
 )

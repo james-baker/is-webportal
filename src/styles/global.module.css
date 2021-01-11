@@ -5,3 +5,10 @@
 .center-me {
   margin: 0 auto;
 }
+
+blockquote {
+  margin: 0 0 1em;
+  padding: 0 1.5em;
+  border-left: 3px solid #4f98ff;
+  background-color: #ecf4fa;
+}

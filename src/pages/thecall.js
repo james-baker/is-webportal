@@ -1,24 +1,22 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import GlobalCSS from "../styles/global.module.css"
 import Layout from "../components/layout"
-import ButtondownSignup from "../components/buttondownsignup"
-import EventsList from "../components/events-list"
 
 export default ({ data }) => (
   <Layout>
     <div style={{ height: "10vh" }}></div>
     <div className={GlobalCSS.centerMe} style={{ minWidth: "300px", maxWidth: "760px", padding: "20px" }}>
-      <div dangerouslySetInnerHTML={{__html: data.pitch.childMarkdownRemark.html}}></div>
-      <ButtondownSignup/>
-      <EventsList/>
+      <div dangerouslySetInnerHTML={{__html: data.thecall.childMarkdownRemark.html}}></div>
+      <Link to="/">Click here</Link> if you're interested in opportunities to get involved or hearing more.
+      <div style={{ marginTop: "100px"}}>Written by <a href="https://www.bakejam.com">James</a>, December 2020.</div>
     </div>
   </Layout>
 )
 
 export const query = graphql`
   query {
-    pitch: file(relativePath: { eq: "md/homepage-pitch.md" }) {
+    thecall: file(relativePath: { eq: "md/thecall.md" }) {
       childMarkdownRemark {
         html
       }
