@@ -5,15 +5,14 @@ export default () => (
   <div>
     <h3>Upcoming Events</h3>
     <ul>
-      <li>TBD January 24th</li>
-{/*       <li>January 17th, 1pm Pacific - Informational Session for newcomers</li>
-        <ul>
-          <li><a href="https://us02web.zoom.us/meeting/register/tZ0tc-mtpjotGNNrQEzK41XdHnIYCxd10GCI">Agenda and registration</a></li>
-        </ul>
-      <li>January 17th, 2pm Pacific - General Session for all involved participants</li>
+      <li>January 24th, 11:30am Pacific - Informational Session for newcomers</li>
       <ul>
-        <li><a href="https://us02web.zoom.us/meeting/register/tZwkcuqqpjMsH9ZAsWQUBkqCbOQ-6mGbFC9q">Agenda and registration</a></li>
-      </ul> */}
+        <li><a href="https://us02web.zoom.us/meeting/register/tZcufumqqDsoGNe4VXWGE2FMHa8QxcpHhR88">Agenda and open registration</a></li>
+      </ul>
+      <li>January 24th, 1pm Pacific - General Session for all involved participants</li>
+      <ul>
+        <li>Introductory session is prerequisite (same day is okay). Meeting detail distributed via newsletter.</li>
+      </ul>
     </ul>
     <h3>Past Timeline</h3>
     <ul>
