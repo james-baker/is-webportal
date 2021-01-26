@@ -5,17 +5,19 @@ export default () => (
   <div>
     <h3>Upcoming Events</h3>
     <ul>
-      <li>January 24th, 11:30am Pacific - Informational Session for newcomers</li>
+      <li>January 31st, 11:00-11:55am Pacific (2pm Eastern) - Informational Session for newcomers</li>
       <ul>
-        <li><a href="https://us02web.zoom.us/meeting/register/tZcufumqqDsoGNe4VXWGE2FMHa8QxcpHhR88">Agenda and open registration</a></li>
+        <li><a href="https://us02web.zoom.us/meeting/register/tZUvcO6prDsiHNLQomdPqodaNTSgou4kzYaW">Agenda and open registration</a></li>
       </ul>
-      <li>January 24th, 1pm Pacific - General Session for all involved participants</li>
+      <li>January 31st, 1:00-2:30pm Pacific (4pm Eastern) - Relational Practices Session</li>
       <ul>
-        <li>Introductory session is prerequisite (same day is okay). Meeting detail distributed via newsletter.</li>
+        <li>Introductory session is prerequisite (same day is okay). Meeting link distributed internally.</li>
       </ul>
     </ul>
     <h3>Past Timeline</h3>
     <ul>
+      <li><div>2021-01-24 General Session</div></li>
+      <li><div>2021-01-24 Informational Session</div></li>
       <li><div>2021-01-17 General Session</div></li>
       <li><div>2021-01-17 Informational Session</div></li>
       <li><div>2021-01-10 Informational Session</div></li>
