@@ -1,4 +1,6 @@
-What is Intentional Society? The shortest not-wrong answer is,
+<h3>What is Intentional Society?</h3>
+
+The shortest not-wrong answer is,
 
 <blockquote>&#8220;a club for people who want to grow.&#8221;</blockquote>
 
