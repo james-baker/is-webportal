@@ -19,19 +19,19 @@ body {
 }
 
 @-webkit-keyframes AnimationName {
-  0%{background-position:0% 99%}
-  50%{background-position:100% 2%}
-  100%{background-position:0% 99%}
+  0%{background-position:0% 100%}
+  50%{background-position:100% 0%}
+  100%{background-position:0% 100%}
 }
 @-moz-keyframes AnimationName {
-  0%{background-position:0% 99%}
-  50%{background-position:100% 2%}
-  100%{background-position:0% 99%}
+  0%{background-position:0% 100%}
+  50%{background-position:100% 0%}
+  100%{background-position:0% 100%}
 }
 @keyframes AnimationName {
-  0%{background-position:0% 99%}
-  50%{background-position:100% 2%}
-  100%{background-position:0% 99%}
+  0%{background-position:0% 100%}
+  50%{background-position:100% 0%}
+  100%{background-position:0% 100%}
 }
 
 li {
