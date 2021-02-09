@@ -3,24 +3,33 @@ import { Link } from "gatsby"
 
 export default () => (
   <div>
-    <h3>Upcoming Events</h3>
+    <h3>Informational Calls</h3>
+    <p>These are introductory sessions for newcomers who are curious about Intentional Society. All 
+      are welcome, and will hear a 20-minute explanatory effort on the design and current status of 
+      the community. Using a video camera and microphone is encouraged.
+    </p>
+    <p><a href="https://us02web.zoom.us/meeting/register/tZUlduuvqTwiGtNnGEb4itU3ydQoBxYpch53">Register 
+      here</a> for the next call on Sunday Feb 7th, 11:00-11:55am Pacific (2pm Eastern).
+    </p>
+
+    <h3>General Sessions</h3>
+    <p>These meetings are for members (informally self-identified, at present) of Intentional Society. 
+      Our primary focus is exploring a variety of relational practices towards connection, trust, and authenticity. 
+      We're also spending some time each week on self-organization, decision-making, and governance topics.
+      Attending an informational call is a prerequesite - and yes, doing both in one day is okay.
+      General sessions currently happen on Sundays, 1:00-2:45pm Pacific (4pm Eastern). This form might 
+      split or significantly change at any time.
+    </p>
+
+    <h3>Historical Timeline</h3>
     <ul>
-      <li>February 7th, 11:00-11:55am Pacific (2pm Eastern) - Informational Session for newcomers</li>
-      <ul>
-        <li><a href="https://us02web.zoom.us/meeting/register/tZAtf--oqzkvGNEx3mI9jh9EecGiCWWNqjRS">Agenda and open registration</a></li>
-      </ul>
-      <li>February 7th, 1:00-2:30pm Pacific (4pm Eastern) - Relational Practices Session</li>
-      <ul>
-        <li>Introductory session is prerequisite (same day is okay). Meeting link distributed internally.</li>
-      </ul>
-    </ul>
-    <h3>Past Timeline</h3>
-    <ul>
-      <li><div>2021-01-31 Relational Practices (General) Session</div></li>
+      <li><div>2021-02-07 General Session #4</div></li>
+      <li><div>2021-02-07 Informational Session</div></li>
+      <li><div>2021-01-31 General Session #3</div></li>
       <li><div>2021-01-31 Informational Session</div></li>
-      <li><div>2021-01-24 General Session</div></li>
+      <li><div>2021-01-24 General Session #2</div></li>
       <li><div>2021-01-24 Informational Session</div></li>
-      <li><div>2021-01-17 General Session</div></li>
+      <li><div>2021-01-17 General Session #1</div></li>
       <li><div>2021-01-17 Informational Session</div></li>
       <li><div>2021-01-10 Informational Session</div></li>
       <li><div>2020-12-27 Informational Session</div></li>
