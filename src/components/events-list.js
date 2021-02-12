@@ -9,7 +9,7 @@ export default () => (
       the community. Using a video camera and microphone is encouraged.
     </p>
     <p><a href="https://us02web.zoom.us/meeting/register/tZUlduuvqTwiGtNnGEb4itU3ydQoBxYpch53">Register 
-      here</a> for the next call on Sunday Feb 7th, 11:00-11:55am Pacific (2pm Eastern).
+      here</a> for the next call on Sunday Feb 14th, 11:00-11:55am Pacific (2pm Eastern).
     </p>
 
     <h3>General Sessions</h3>
