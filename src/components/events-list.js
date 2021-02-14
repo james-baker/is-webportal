@@ -8,8 +8,8 @@ export default () => (
       are welcome, and will hear a 20-minute explanatory effort on the design and current status of 
       the community. Using a video camera and microphone is encouraged.
     </p>
-    <p><a href="https://us02web.zoom.us/meeting/register/tZUlduuvqTwiGtNnGEb4itU3ydQoBxYpch53">Register 
-      here</a> for the next call on Sunday Feb 14th, 11:00-11:55am Pacific (2pm Eastern).
+    <p><a href="https://us02web.zoom.us/meeting/register/tZ0pfu6rqjwsG9Fl8uoVJD2fgCIwlWYz4dlt">Click 
+      here to register</a> for the next call on <b>Sunday Feb 21st, 11:00-11:55am Pacific (2pm Eastern)</b>.
     </p>
 
     <h3>General Sessions</h3>
@@ -23,13 +23,15 @@ export default () => (
 
     <h3>Historical Timeline</h3>
     <ul>
-      <li><div>2021-02-07 General Session #4</div></li>
+      <li><div>2021-02-14 General Session #5 - DEI</div></li>
+      <li><div>2021-02-14 Informational Session</div></li>
+      <li><div>2021-02-07 General Session #4 - examining avoidance</div></li>
       <li><div>2021-02-07 Informational Session</div></li>
-      <li><div>2021-01-31 General Session #3</div></li>
+      <li><div>2021-01-31 General Session #3 - I seem, we seem</div></li>
       <li><div>2021-01-31 Informational Session</div></li>
-      <li><div>2021-01-24 General Session #2</div></li>
+      <li><div>2021-01-24 General Session #2 - being with you, I notice</div></li>
       <li><div>2021-01-24 Informational Session</div></li>
-      <li><div>2021-01-17 General Session #1</div></li>
+      <li><div>2021-01-17 General Session #1 - sensing and seeking</div></li>
       <li><div>2021-01-17 Informational Session</div></li>
       <li><div>2021-01-10 Informational Session</div></li>
       <li><div>2020-12-27 Informational Session</div></li>
