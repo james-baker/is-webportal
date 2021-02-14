@@ -2,11 +2,11 @@
 
 The shortest not-wrong answer is,
 
-<blockquote>&#8220;a club for people who want to grow.&#8221;</blockquote>
+<blockquote>&#8220;a community for people who want to grow.&#8221;</blockquote>
 
 As we get started, it's probably more accurate to say,
 
-<blockquote>&#8220;a club for people who want to <i>build</i> a club for people who want to grow.&#8221;</blockquote>
+<blockquote>&#8220;a club for people who want to <i>build</i> a community for people who want to grow.&#8221;</blockquote>
 
 If you've got a couple minutes for the real story, [**read this**](/thecall).
 
