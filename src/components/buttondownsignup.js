@@ -3,7 +3,7 @@ import styles from "./buttondownsignup.module.css"
 
 export default () => (
   <div style={{minWidth: "300px", maxWidth: "500px", marginBlock: "1em"}}>
-    <h3>Newsletter</h3>
+    <h2>Newsletter</h2>
     <p>Want to stay informed? Enter your email for weekly progress updates:</p>
     <div className={styles.popout}>
       <form

@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 export default () => (
   <div>
-    <h3>Informational Calls</h3>
+    <h2>Informational Calls</h2>
     <p>These are introductory sessions for newcomers who are curious about Intentional Society. All 
       are welcome, and will hear a 25-minute explanatory effort on the design and current status of 
       the community. Interactive Q&amp;A follows. Using a video camera and microphone is encouraged.
@@ -12,7 +12,7 @@ export default () => (
       here to register</a> for the next call on <b>Sunday Feb 28st, 11:00-11:55am Pacific Standard Time (2pm Eastern start)</b>.
     </p>
 
-    <h3>General Sessions</h3>
+    <h2>General Sessions</h2>
     <p>These meetings are for members (informally self-identified, at present) of Intentional Society. 
       Our primary focus is exploring a variety of relational practices towards connection, trust, and authenticity. 
       We're also spending some time each week on self-organization, decision-making, and governance topics.
@@ -21,7 +21,7 @@ export default () => (
       split or significantly change at any time.
     </p>
 
-    <h3>Historical Timeline</h3>
+    <h2>Historical Timeline</h2>
     <ul>
       <li><div>2021-02-21 General Session #6 - Empathy Circling</div></li>
       <li><div>2021-02-21 Informational Session</div></li>

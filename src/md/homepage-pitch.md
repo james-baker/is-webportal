@@ -6,7 +6,7 @@ Embodying and radiating a new way of being outward.
 </center>
 
 
-<h3>What is Intentional Society?</h3>
+<h2>What is Intentional Society?</h2>
 
 The shortest not-wrong answer is,
 
