@@ -2,7 +2,7 @@
 Developing and growing ourselves.<br/>
 Skilfull relating with each other.<br/>
 Support and belonging in community.<br/>
-Embodying and radiating a new way of being outward.
+Embodying and radiating outward a new way of being.
 </center>
 
 
