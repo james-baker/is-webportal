@@ -8,8 +8,9 @@ export default () => (
       are welcome, and will hear a 25-minute explanatory effort on the design and current status of 
       the community. Interactive Q&amp;A follows. Using a video camera and microphone is encouraged.
     </p>
-    <p><a href="https://us02web.zoom.us/meeting/register/tZcsc-CoqTIjH9aTLNabDTsc6g8U6lYSw6zI">Click 
-      here to register</a> for the next call on <b>Sunday March 7th, 11:00-11:55am Pacific Standard Time (2pm Eastern start)</b>.
+    <p><a href="https://us02web.zoom.us/meeting/register/tZAkd-6vrTsqG9EvKVptsSEmKD6_14dN0TVw">Click 
+      here to register</a> for the next call on <b>Sunday March 14th, 11:00-11:55am Pacific DAYLIGHT Time (2pm Eastern start)</b>.
+      Please note that US Daylight Savings Time will take effect on that day!
     </p>
 
     <h2>General Sessions</h2>
@@ -17,11 +18,13 @@ export default () => (
       Our first focus is exploring a variety of relational practices towards connection, trust, and authenticity. 
       We're also spending some time each week on meta/self-organization topics.
       Attending an informational call is a prerequesite - and yes, doing both in one day is okay.
-      General sessions currently happen on Sundays, 1:00-2:45pm Pacific Standard Time (4pm Eastern start).
+      General sessions currently happen on Sundays, 1:00-2:45pm Pacific Daylight Time (4pm Eastern start).
     </p>
 
     <h2>Historical Timeline</h2>
     <ul>
+      <li><div>2021-02-28 General Session #8 - Authentic Relating, Hotseat</div></li>
+      <li><div>2021-02-28 Informational Session</div></li>
       <li><div>2021-02-28 General Session #7 - Glass Bead Game</div></li>
       <li><div>2021-02-28 Informational Session</div></li>
       <li><div>2021-02-21 General Session #6 - Empathy Circling</div></li>
