@@ -8,8 +8,8 @@ export default () => (
       are welcome, and will hear a 25-minute explanatory effort on the design and current status of 
       the community. Interactive Q&amp;A follows. Using a video camera and microphone is encouraged.
     </p>
-    <p><a href="https://us02web.zoom.us/meeting/register/tZAtcO2uqjgrHdA1Af7Fj_VNOWg_JKN10z3p">Click 
-      here to register</a> for the next call on <b>Sunday March 21st, 11:00-11:55am Pacific Daylight Time (2pm Eastern start, UTC-7)</b>.
+    <p><a href="https://us02web.zoom.us/meeting/register/tZApfuGprzgrGdKxaNHcF9CJ1moEVmO79NPh">Click 
+      here to register</a> for the next call on <b>Saturday March 27st, 1:00-1:55pm Pacific Daylight Time (UTC-7) (4pm Eastern)</b>.
     </p>
 
     <h2>General Sessions</h2>
@@ -22,9 +22,11 @@ export default () => (
 
     <h2>Historical Timeline</h2>
     <ul>
-      <li><div>2021-03-07 General Session #9 - Collective Presencing</div></li>
-      <li><div>2021-02-28 General Session #8 - Authentic Relating, Hotseat</div></li>
-      <li><div>2021-02-28 Informational Session</div></li>
+      <li><div>2021-03-21 General Session #10 - Adult Development intro part 1</div></li>
+      <li><div>2021-03-21 Informational Session</div></li>
+      <li><div>2021-03-14 General Session #9 - Collective Presencing</div></li>
+      <li><div>2021-03-07 General Session #8 - Authentic Relating, Hotseat</div></li>
+      <li><div>2021-03-07 Informational Session</div></li>
       <li><div>2021-02-28 General Session #7 - Glass Bead Game</div></li>
       <li><div>2021-02-28 Informational Session</div></li>
       <li><div>2021-02-21 General Session #6 - Empathy Circling</div></li>
