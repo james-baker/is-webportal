@@ -8,20 +8,23 @@ export default () => (
       are welcome, and will hear a 25-minute explanatory effort on the design and current status of 
       the community. Interactive Q&amp;A follows. Using a video camera and microphone is encouraged.
     </p>
-    <p><a href="https://us02web.zoom.us/meeting/register/tZMvcO6hqzwoEtdj6TlzmLYlstBK-wjNwPMr">Click 
-      here to register</a> for the next call on <b>Saturday April 10th, 1:00-1:55pm Pacific Daylight Time (UTC-7) (4pm Eastern)</b>.
+    <p>These currently happen most Saturdays. 
+      <a href="https://us02web.zoom.us/meeting/register/tZApcuyorzMvEtyDoaoAq1fPEW68yrU-l33a">Click 
+      here to register</a> for the next call on <b>Saturday April 24th, 1:00-1:55pm Pacific Daylight Time (UTC-7) (4pm Eastern)</b>.
     </p>
 
     <h2>General Sessions</h2>
-    <p>These meetings are for members (informally self-identified, at present) of Intentional Society. 
-      That's a wrap for Q1, in which we focused on exploring relational practices for connection and authenticity. 
-      We'll kick off Q2 on April 11 with a meta/structural design session, to get closer to what we want!
+    <p>These meetings are for members (loosely self-identified, at present) of Intentional Society. 
+      In Q1 we explored relational practices for connection and authenticity as one group together. 
+      As we grow into Q2 we're shifting to a small-group emphasis, and are in experimentation mode as we try it out.
       General sessions currently happen on Sundays, 1:00-2:45pm Pacific Daylight Time (4pm Eastern start).
       Attending an informational call is a prerequesite.
     </p>
 
     <h2>Historical Timeline</h2>
     <ul>
+      <li><div>2021-04-11 General Session 2.1 - Structural redesign</div></li>
+      <li><div>2021-04-10 Informational Session</div></li>
       <li><div>2021-03-27 General Session #11 - Adult Development intro part 2</div></li>
       <li><div>2021-03-26 Informational Session</div></li>
       <li><div>2021-03-21 General Session #10 - Adult Development intro part 1</div></li>
