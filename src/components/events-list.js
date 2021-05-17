@@ -10,7 +10,7 @@ export default () => (
     </p>
     <p>These currently happen most Saturdays.&nbsp;
       <a href="https://us02web.zoom.us/meeting/register/tZIvd-GpqzIiHNTy8jUibOHaPF9L70EphdVU">Click 
-      here to register</a> for the next call on <b>Saturday May 15th, 11:00-11:55am Pacific Daylight Time (2pm Eastern, 6pm UTC)</b>.
+      here to register</a> for the next call on <b>Saturday May 22nd, 11:00-11:55am Pacific Daylight Time (2pm Eastern, 6pm UTC)</b>.
     </p>
 
     <h2>General Sessions</h2>
