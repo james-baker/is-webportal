@@ -9,8 +9,8 @@ export default () => (
       the community. Interactive Q&amp;A follows. Using a video camera and microphone is encouraged.
     </p>
     <p>These currently happen most Saturdays.&nbsp;
-      <a href="https://us02web.zoom.us/meeting/register/tZIvd-GpqzIiHNTy8jUibOHaPF9L70EphdVU">Click 
-      here to register</a> for the next call on <b>Saturday May 22nd, 11:00-11:55am Pacific Daylight Time (2pm Eastern, 6pm UTC)</b>.
+      <a href="https://us02web.zoom.us/meeting/register/tZYuf--prj8jHtXChFV01ye_3ne1hFfVPxlo">Click 
+      here to register</a> for the next call on <b>Saturday May 29th, 11:00-11:55am Pacific Daylight Time (2pm Eastern, 6pm UTC)</b>.
     </p>
 
     <h2>General Sessions</h2>
@@ -29,6 +29,8 @@ export default () => (
 
     <h2>Historical Timeline</h2>
     <ul>
+      <li><div>2021-05-23 General Session 2.7 - Voyaging 4/5 + One Word Turns</div></li>
+      <li><div>2021-05-17 Meta Meeting #3</div></li>
       <li><div>2021-05-16 General Session 2.6 - Voyaging 3/5?</div></li>
       <li><div>2021-05-15 Informational Session</div></li>
       <li><div>2021-05-10 Meta Meeting #2</div></li>
