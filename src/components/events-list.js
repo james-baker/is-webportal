@@ -9,8 +9,8 @@ export default () => (
       the community. Interactive Q&amp;A follows. Using a video camera and microphone is encouraged.
     </p>
     <p>These currently happen most Saturdays.&nbsp;
-      <a href="https://us02web.zoom.us/meeting/register/tZYuf--prj8jHtXChFV01ye_3ne1hFfVPxlo">Click 
-      here to register</a> for the next call on <b>Saturday May 29th, 11:00-11:55am Pacific Daylight Time (2pm Eastern, 6pm UTC)</b>.
+      <a href="https://us02web.zoom.us/meeting/register/tZ0pd-Crpz8uHNFEBl3PInQehGRSqJIMff9E">Click 
+      here to register</a> for the next call on <b>Saturday June 5th, 11:00-11:55am Pacific Daylight Time (2pm Eastern, 6pm UTC)</b>.
     </p>
 
     <h2>General Sessions</h2>
@@ -23,15 +23,18 @@ export default () => (
     </p>
 
     <h2>Meta Meetings</h2>
-    <p>This is a members-only volunteer working group providing operational and governance support. 
+    <p>This is a members-only volunteer working group providing steering, strategy, and governance support. 
       These currently happen on Mondays, 9am Pacific Daylight Time (Noon Eastern, 4pm UTC).
     </p>
 
     <h2>Historical Timeline</h2>
     <ul>
-      <li><div>2021-05-23 General Session 2.7 - Voyaging 4/5 + One Word Turns</div></li>
+      <li><div>2021-05-31 Meta Meeting #5</div></li>
+      <li><div>2021-05-30 General Session 2.8 - Inquiry Spiraling</div></li>
+      <li><div>2021-05-24 Meta Meeting #4</div></li>
+      <li><div>2021-05-23 General Session 2.7 - One Word Turns + Voyaging 4/4</div></li>
       <li><div>2021-05-17 Meta Meeting #3</div></li>
-      <li><div>2021-05-16 General Session 2.6 - Voyaging 3/5?</div></li>
+      <li><div>2021-05-16 General Session 2.6 - Voyaging 3/4</div></li>
       <li><div>2021-05-15 Informational Session</div></li>
       <li><div>2021-05-10 Meta Meeting #2</div></li>
       <li><div>2021-05-09 General Session 2.5 - Voyaging 2/4 + Noticing Game</div></li>
