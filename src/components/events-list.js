@@ -3,24 +3,22 @@ import { Link } from "gatsby"
 
 export default () => (
   <div>
-    <h2>Informational Calls</h2>
+    <h2>Orientation Calls</h2>
     <p>These are introductory sessions for newcomers who are curious about Intentional Society. All 
-      are welcome, and will hear a 25-minute explanatory effort on the design and current status of 
+      are welcome, and will hear a 20-minute tour of the design, structure, and culture of 
       the community. Interactive Q&amp;A follows. Using a video camera and microphone is encouraged.
     </p>
     <p>These currently happen most Saturdays.&nbsp;
-      {/* <a href="https://us02web.zoom.us/meeting/register/tZYudemhqjorGNc2tkvXsFYPMpmb7lomAFNd">Click 
-      here to register</a> for the next call on <b>Saturday June 12th, 11:00-11:55am Pacific Daylight Time (2pm Eastern, 6pm UTC)</b>. */}
-      Next call: TBD - to be decided by 6/16
+      <a href="https://us02web.zoom.us/meeting/register/tZMtc-uuqTMuE90wzdx_2Qi_S_UV-qVSepCl">Click 
+      here to register</a> for the next orientation on <b>Saturday July 10th, 1:00-1:55pm Pacific Daylight Time (4pm Eastern, 8pm UTC)</b>.
     </p>
 
     <h2>General Sessions</h2>
-    <p>These meetings are for members (loosely self-identified, at present) of Intentional Society. 
-      We meet together as a large group, then split into small groups - some of which are multi-week voyages. 
-      These self-selected small groups explore self-developmental and relational practices. 
-      (In Q1 we explored relational practices all together to form a base of connection and authenticity.) 
+    <p>These meetings are the main heartbeat of Intentional Society. 
+      Starting July 11th, our Q3 agenda includes community-level relating and learning practices and also
+      self-organized exploratory voyages in small groups.
       General sessions currently happen on Sundays, 1:00-2:45pm Pacific Daylight Time (4pm Eastern, 8pm UTC).
-      Attending an informational call is a prerequesite.
+      Meeting link provided after orientation.
     </p>
 
     <h2>Meta Meetings</h2>
