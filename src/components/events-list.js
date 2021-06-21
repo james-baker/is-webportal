@@ -8,7 +8,7 @@ export default () => (
       are welcome, and will hear a 20-minute tour of the design, structure, and culture of 
       the community. Interactive Q&amp;A follows. Using a video camera and microphone is encouraged.
     </p>
-    <p>These currently happen most Saturdays.&nbsp;
+    <p>These currently happen on Saturdays.&nbsp;
       <a href="https://us02web.zoom.us/meeting/register/tZMtc-uuqTMuE90wzdx_2Qi_S_UV-qVSepCl">Click 
       here to register</a> for the next orientation on <b>Saturday July 10th, 1:00-1:55pm Pacific Daylight Time (4pm Eastern, 8pm UTC)</b>.
     </p>
@@ -28,6 +28,8 @@ export default () => (
 
     <h2>Historical Timeline</h2>
     <ul>
+      <li><div>2021-06-20 General Session 2.10 - T-Group</div></li>
+      <li><div>2021-06-14 Meta Meeting #7</div></li>
       <li><div>2021-06-13 General Session 2.9 - Redesign + Planning + The Wave</div></li>
       <li><div>2021-06-12 Informational Session</div></li>
       <li><div>2021-06-07 Meta Meeting #6</div></li>
