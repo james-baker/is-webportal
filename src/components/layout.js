@@ -16,18 +16,19 @@ import MenuIcon from '@material-ui/icons/Menu';
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
-    /* color: theme.palette.secondary.main */
   },
   appBar: {
+    color: theme.palette.secondary.main,
+    backgroundColor: theme.palette.primary.main
   },
-  menuButton: {
-    color: theme.palette.secondary.main
+   menuButton: {
+    color: "inherit"
   },
   title: {
-    color: theme.palette.secondary.main
+    color: "inherit"
   },
   testButton: {
-    color: theme.palette.secondary.main
+    color: "inherit"
   },
 }));
 
@@ -50,7 +51,7 @@ const NamedDefault = ({ children }) => {
     <meta name="description" content={data.site.siteMetadata.description}/>
   </Helmet>
   <CssBaseline />
-  <AppBar position="fixed" className={classes.appBar} color="primary">
+  <AppBar position="fixed" className={classes.appBar}>
     <Toolbar>
       <IconButton edge="start" className={classes.menuButton} aria-label="menu">
         <MenuIcon />
