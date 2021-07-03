@@ -1,7 +1,7 @@
 import React from "react"
-import styles from "./buttondownsignup.module.css"
+import * as styles from "./buttondownsignup.module.css"
 
-export default () => (
+const NamedDefault = () => (
   <div style={{minWidth: "300px", maxWidth: "500px", marginBlock: "1em"}}>
     <h2>Newsletter</h2>
     <p>Want to stay informed? Enter your email for weekly progress updates:</p>
@@ -23,3 +23,4 @@ export default () => (
     </div>
   </div>
 )
+export default NamedDefault;

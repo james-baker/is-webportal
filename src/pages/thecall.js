@@ -1,9 +1,9 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
-import GlobalCSS from "../styles/global.module.css"
+import * as GlobalCSS from "../styles/global.module.css"
 import Layout from "../components/layout"
 
-export default ({ data }) => (
+const NamedDefault = ({ data }) => (
   <Layout>
     <div style={{ height: "10vh" }}></div>
     <div className={GlobalCSS.centerMe} style={{ minWidth: "300px", maxWidth: "760px", padding: "20px" }}>
@@ -13,6 +13,7 @@ export default ({ data }) => (
     </div>
   </Layout>
 )
+export default NamedDefault;
 
 export const query = graphql`
   query {

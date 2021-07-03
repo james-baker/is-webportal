@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-export default () => (
+const NamedDefault = () => (
   <div>
     <h2>Orientation Calls</h2>
     <p>These are introductory sessions for newcomers who are curious about Intentional Society. All 
@@ -82,3 +82,4 @@ export default () => (
     </ul>
   </div>
 )
+export default NamedDefault;

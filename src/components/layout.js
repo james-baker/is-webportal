@@ -4,7 +4,7 @@ import Helmet from "react-helmet"
 import "fontsource-open-sans"
 import "./layout.module.css"
 
-export default ({ children }) => {
+const NamedDefault = ({ children }) => {
   const data = useStaticQuery(graphql`
     query {
       site {
@@ -24,3 +24,4 @@ export default ({ children }) => {
   {children}
   </>
 }
+export default NamedDefault;
