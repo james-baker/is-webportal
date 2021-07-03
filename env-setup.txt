@@ -20,8 +20,12 @@ yarn add gatsby-plugin-react-helmet react-helmet
 yarn add gatsby-plugin-manifest
 yarn add @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
 yarn add fontsource-open-sans //https://github.com/fontsource/fontsource
-yarn add @material-ui/core
-yarn add gatsby-plugin-material-ui
+
 upgrading:
 yarn upgrade gatsby --latest
 yarn upgrade-interactive --latest
+
+yarn add @material-ui/core
+yarn add gatsby-plugin-material-ui
+yarn add @material-ui/icons
+yarn add gatsby-theme-material-ui

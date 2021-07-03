@@ -17,7 +17,7 @@ module.exports = {
         head: true,
       },
     },
-    'gatsby-plugin-material-ui',
+    'gatsby-theme-material-ui', // contains gatsby-plugin-material-ui
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',
     {
