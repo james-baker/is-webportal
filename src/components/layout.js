@@ -16,10 +16,19 @@ import MenuIcon from '@material-ui/icons/Menu';
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
+    /* color: theme.palette.secondary.main */
+  },
+  appBar: {
+  },
+  menuButton: {
+    color: theme.palette.secondary.main
   },
   title: {
-    color: "#b3dff3",
-  }
+    color: theme.palette.secondary.main
+  },
+  testButton: {
+    color: theme.palette.secondary.main
+  },
 }));
 
 const NamedDefault = ({ children }) => {
@@ -41,15 +50,15 @@ const NamedDefault = ({ children }) => {
     <meta name="description" content={data.site.siteMetadata.description}/>
   </Helmet>
   <CssBaseline />
-  <AppBar position="fixed" color="primary">
+  <AppBar position="fixed" className={classes.appBar} color="primary">
     <Toolbar>
-      <IconButton edge="start" className={classes.menuButton} color="secondary" aria-label="menu">
+      <IconButton edge="start" className={classes.menuButton} aria-label="menu">
         <MenuIcon />
       </IconButton>
-      <Typography variant="h6" className={classes.title} color="secondary">
+      <Typography variant="h6" className={classes.title}>
         News
       </Typography>
-      <Button color="secondary">test</Button>
+      <Button className={classes.testButton}>test</Button>
     </Toolbar>
   </AppBar>
   {children}
