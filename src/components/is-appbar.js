@@ -8,9 +8,6 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    display: 'flex',
-  },
   appBar: {
     color: theme.palette.secondary.main,
     backgroundColor: theme.palette.primary.main
@@ -19,11 +16,12 @@ const useStyles = makeStyles((theme) => ({
     color: "inherit"
   },
   title: {
+    flexGrow: 1,
     color: "inherit"
   },
-  testButton: {
+  /* testButton: {
     color: "inherit"
-  },
+  }, */
 }));
 
 const NamedDefault = () => {
@@ -32,13 +30,13 @@ const NamedDefault = () => {
   return (
   <AppBar position="fixed" className={classes.appBar}>
     <Toolbar>
+      <Typography variant="h5" className={classes.title}>
+        Intentional Society
+      </Typography>
       <IconButton edge="start" className={classes.menuButton} aria-label="menu">
         <MenuIcon />
       </IconButton>
-      <Typography variant="h6" className={classes.title}>
-        Title text
-      </Typography>
-      <Button className={classes.testButton}>button</Button>
+      {/* <Button className={classes.testButton}>button</Button> */}
     </Toolbar>
   </AppBar>
   );
