@@ -17,7 +17,18 @@ module.exports = {
         head: true,
       },
     },
-    'gatsby-theme-material-ui', // contains gatsby-plugin-material-ui
+    {
+      resolve: 'gatsby-theme-material-ui', // pulls in gatsby-plugin-material-ui and gatsby-plugin-webfonts
+      options: {
+        webFontsConfig: {
+          fonts: {
+            google: [
+              { family: "Open Sans", variants: [400] },
+            ],
+          },
+        },
+      },
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',
     {

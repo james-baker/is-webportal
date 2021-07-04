@@ -10,22 +10,22 @@ const theme = createMuiTheme({
         'Helvetica',
         'Arial',
         'sans-serif'
-      ].join(','),
+    ].join(','),
+  },
+  palette: {
+    primary: {
+      main: '#333333',
     },
-    palette: {
-      primary: {
-        main: '#333333',
-      },
-      secondary: {
-        main: '#b3dff3',
-      },
-      error: {
-        main: '#ff0000',
-      },
-      background: {
-        default: '#b3dff3',
-      },
+    secondary: {
+      main: '#b3dff3',
     },
-  });
+    error: {
+      main: '#ff0000',
+    },
+    background: {
+      default: '#b3dff3',
+    },
+  },
+});
 
 export default theme;
