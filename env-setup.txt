@@ -19,7 +19,6 @@ yarn add gatsby-transformer-remark
 yarn add gatsby-plugin-react-helmet react-helmet
 yarn add gatsby-plugin-manifest
 yarn add @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
-yarn add fontsource-open-sans //https://github.com/fontsource/fontsource
 
 upgrading:
 yarn upgrade gatsby --latest
