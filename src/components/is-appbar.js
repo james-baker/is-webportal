@@ -41,12 +41,12 @@ const NamedDefault = () => {
       <Typography variant="h5" className={classes.title}>
         Intentional Society
       </Typography>
-      <IconButton aria-controls="simple-menu" aria-haspopup="true" aria-label="menu"
+      <IconButton aria-controls="top-nav-menu" aria-haspopup="true" aria-label="menu"
                   className={classes.menuButton} onClick={handleClick}>
         <MenuIcon />
       </IconButton>
       <Menu
-        id="simple-menu"
+        id="top-nav-menu"
         anchorEl={anchorEl}
         anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
         transformOrigin={{ vertical: 'top', horizontal: 'right' }}
@@ -54,13 +54,14 @@ const NamedDefault = () => {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem component={Link} to="/thecall" onClick={handleClose}>Who We Are</MenuItem>
-        <MenuItem component={Link} to="/" onClick={handleClose}>What We Do</MenuItem>
-        <MenuItem component={Link} to="/" onClick={handleClose}>Get Involved!</MenuItem>
-        <MenuItem component={Link} to="/" onClick={handleClose}>History</MenuItem>
-        <MenuItem component={Link} to="/" onClick={handleClose}>Questions?</MenuItem>
-        <MenuItem component={Link} to="/" onClick={handleClose}>Friends of IS</MenuItem>
-      </Menu> 
+        <MenuItem component={Link} to="/" onClick={handleClose}>Home</MenuItem>
+        <MenuItem component={Link} to="/who-we-are" onClick={handleClose}>Who We Are</MenuItem>
+        <MenuItem component={Link} to="/what-we-do" onClick={handleClose}>What We Do</MenuItem>
+        <MenuItem component={Link} to="/get-involved" onClick={handleClose}>Get Involved!</MenuItem>
+        <MenuItem component={Link} to="/history" onClick={handleClose}>History</MenuItem>
+        <MenuItem component={Link} to="/questions" onClick={handleClose}>Questions?</MenuItem>
+        <MenuItem component={Link} to="/friends-of" onClick={handleClose}>Friends of IS</MenuItem>
+      </Menu>
     </Toolbar>
   </AppBar>
   );

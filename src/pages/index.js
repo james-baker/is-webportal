@@ -1,18 +1,14 @@
 import React from "react"
 import { graphql } from "gatsby"
-import * as GlobalCSS from "../styles/global.module.css"
 import Layout from "../components/layout"
-import ButtondownSignup from "../components/buttondownsignup"
-import EventsList from "../components/events-list"
+import CenteredColumn from "../components/centered-column"
 
 const NamedDefault = ({ data }) => (
   <Layout>
-    <div style={{ height: "10vh" }}></div>
-    <div className={GlobalCSS.centerMe} style={{ minWidth: "300px", maxWidth: "760px", padding: "20px" }}>
+    <div style={{ height: "5vh" }}></div>
+    <CenteredColumn>
       <div dangerouslySetInnerHTML={{__html: data.pitch.childMarkdownRemark.html}}></div>
-      <ButtondownSignup/>
-      <EventsList/>
-    </div>
+    </CenteredColumn>
   </Layout>
 )
 export default NamedDefault;
