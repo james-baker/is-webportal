@@ -3,8 +3,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-/* import Button from '@material-ui/core/Button'; */
 import IconButton from '@material-ui/core/IconButton';
+import Menu from '@material-ui/core/Menu';
+import MenuItem from '@material-ui/core/MenuItem';
 import MenuIcon from '@material-ui/icons/Menu';
 
 const useStyles = makeStyles((theme) => ({
@@ -19,13 +20,19 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     color: "inherit"
   },
-  /* testButton: {
-    color: "inherit"
-  }, */
 }));
 
 const NamedDefault = () => {
   const classes = useStyles();
+  const [anchorEl, setAnchorEl] = React.useState(null);
+
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
 
   return (
   <AppBar position="fixed" className={classes.appBar}>
@@ -33,10 +40,23 @@ const NamedDefault = () => {
       <Typography variant="h5" className={classes.title}>
         Intentional Society
       </Typography>
-      <IconButton edge="start" className={classes.menuButton} aria-label="menu">
+      <IconButton aria-controls="simple-menu" aria-haspopup="true" aria-label="menu"
+                  className={classes.menuButton} onClick={handleClick}>
         <MenuIcon />
       </IconButton>
-      {/* <Button className={classes.testButton}>button</Button> */}
+      <Menu
+        id="simple-menu"
+        anchorEl={anchorEl}
+        anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
+        transformOrigin={{ vertical: 'top', horizontal: 'right' }}
+        keepMounted
+        open={Boolean(anchorEl)}
+        onClose={handleClose}
+      >
+        <MenuItem onClick={handleClose}>item 1</MenuItem>
+        <MenuItem onClick={handleClose}>item 2</MenuItem>
+        <MenuItem onClick={handleClose}>item 3</MenuItem>
+      </Menu> 
     </Toolbar>
   </AppBar>
   );
