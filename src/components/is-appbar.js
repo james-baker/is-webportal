@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -53,9 +54,9 @@ const NamedDefault = () => {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleClose}>item 1</MenuItem>
-        <MenuItem onClick={handleClose}>item 2</MenuItem>
-        <MenuItem onClick={handleClose}>item 3</MenuItem>
+        <MenuItem component={Link} to="/thecall" onClick={handleClose}>item 1</MenuItem>
+        <MenuItem component={Link} to="/" onClick={handleClose}>item 2</MenuItem>
+        <MenuItem component={Link} to="/" onClick={handleClose}>item 3</MenuItem>
       </Menu> 
     </Toolbar>
   </AppBar>
