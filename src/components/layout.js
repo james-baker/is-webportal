@@ -3,7 +3,12 @@ import { useStaticQuery, graphql } from "gatsby"
 import Helmet from "react-helmet"
 import "./layout.module.css"
 import CssBaseline from '@material-ui/core/CssBaseline';
+import { makeStyles } from '@material-ui/core/styles';
 import ISAppBar from "./is-appbar";
+
+const useStyles = makeStyles(theme => ({
+  offset: theme.mixins.toolbar,
+}))
 
 const NamedDefault = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -15,7 +20,8 @@ const NamedDefault = ({ children }) => {
         }
       }
     }
-  `)
+  `);
+  const classes = useStyles();
 
   return <>
   <Helmet>
@@ -24,6 +30,7 @@ const NamedDefault = ({ children }) => {
   </Helmet>
   <CssBaseline/>
   <ISAppBar/>
+  <div className={classes.offset} /> {/* one AppBar's worth of space */}
   {children}
   </>
 }
