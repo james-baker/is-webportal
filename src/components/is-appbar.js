@@ -54,9 +54,12 @@ const NamedDefault = () => {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem component={Link} to="/thecall" onClick={handleClose}>item 1</MenuItem>
-        <MenuItem component={Link} to="/" onClick={handleClose}>item 2</MenuItem>
-        <MenuItem component={Link} to="/" onClick={handleClose}>item 3</MenuItem>
+        <MenuItem component={Link} to="/thecall" onClick={handleClose}>Who We Are</MenuItem>
+        <MenuItem component={Link} to="/" onClick={handleClose}>What We Do</MenuItem>
+        <MenuItem component={Link} to="/" onClick={handleClose}>Get Involved!</MenuItem>
+        <MenuItem component={Link} to="/" onClick={handleClose}>History</MenuItem>
+        <MenuItem component={Link} to="/" onClick={handleClose}>Questions?</MenuItem>
+        <MenuItem component={Link} to="/" onClick={handleClose}>Friends of IS</MenuItem>
       </Menu> 
     </Toolbar>
   </AppBar>
