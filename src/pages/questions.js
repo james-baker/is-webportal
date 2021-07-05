@@ -6,7 +6,11 @@ const NamedDefault = ({ data }) => (
   <Layout>
     <div style={{ height: "5vh" }}></div>
     <CenteredColumn>
-      Questions
+      <h2>Questions</h2>
+      <h4>Q: Does it cost anything?</h4>
+      <p>A: No.</p>
+      <h4>Q: Are you trying to save the world?</h4>
+
     </CenteredColumn>
   </Layout>
 );
