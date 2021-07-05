@@ -9,7 +9,7 @@ const NamedDefault = ({ data }) => (
     <CenteredColumn>
       <h2>Who we are</h2>
 
-      <p>(TODO: Take a fun group photo and post it here.)</p>
+      <p>(TODO: Take a fun group photo and add here.)</p>
 
       <p>We are a community of seekers and friends. We are a geographically distributed
         community, connecting face-to-face via video calls. Connecting and 
@@ -35,8 +35,8 @@ const NamedDefault = ({ data }) => (
         honest and compassionate way, we are able self-teachers with socially-expanded insight.
       </p>
 
-      <p>Some of us have looked far and wide intellectually; there's a lot of theory underneath
-        <Link to="/what-we-do">what we do</Link> together.
+      <p>Some of us have looked far and wide intellectually; there's a lot of theory 
+        underneath <Link to="/what-we-do">what we do</Link> together.
         But it’s also what people everywhere have known and done for millenia, 
         in villages, tribes, and crews of belonging and support. There is wisdom in both 
         science and woo, in the latest discoveries and in ancient traditions. We thrive
