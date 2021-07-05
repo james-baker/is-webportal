@@ -60,7 +60,7 @@ const NamedDefault = () => {
         <MenuItem component={Link} to="/get-involved" onClick={handleClose}>Get Involved!</MenuItem>
         <MenuItem component={Link} to="/history" onClick={handleClose}>History</MenuItem>
         <MenuItem component={Link} to="/questions" onClick={handleClose}>Questions?</MenuItem>
-        <MenuItem component={Link} to="/friends-of" onClick={handleClose}>Friends of IS</MenuItem>
+        <MenuItem component={Link} to="/resources" onClick={handleClose}>Other Resources</MenuItem>
       </Menu>
     </Toolbar>
   </AppBar>

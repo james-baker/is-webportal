@@ -6,7 +6,9 @@ const NamedDefault = ({ data }) => (
   <Layout>
     <div style={{ height: "5vh" }}></div>
     <CenteredColumn>
-      Friends of Intentional Society
+      <h2>Resources</h2>
+      <h3>Relational Practices</h3>
+      <h3>Friends of Intentional Society</h3>
     </CenteredColumn>
   </Layout>
 );
