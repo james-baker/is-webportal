@@ -8,6 +8,7 @@ const NamedDefault = ({ data }) => (
   <Layout>
     <div style={{ height: "5vh" }}></div>
     <CenteredColumn>
+      <h2>Newsletter</h2>
       <ButtondownSignup/>
       <EventsList/>
     </CenteredColumn>

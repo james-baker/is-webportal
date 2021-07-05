@@ -1,10 +1,10 @@
 import React from "react"
 import * as styles from "./buttondownsignup.module.css"
 
-const NamedDefault = () => (
-  <div style={{minWidth: "300px", maxWidth: "500px", marginBlock: "1em"}}>
-    <h2>Newsletter</h2>
-    <p>Want to stay informed? Enter your email for weekly progress updates:</p>
+const NamedDefault = () => <>
+  <p>Want to hear about what we're doing and learning each week? 
+      Enter your email here to subscribe to our progress update newsletter:</p>
+  <div style={{minWidth: "300px", maxWidth: "450px", marginBlock: "1em"}}>
     <div className={styles.popout}>
       <form
         action="https://buttondown.email/api/emails/embed-subscribe/intentionalsociety"
@@ -19,5 +19,5 @@ const NamedDefault = () => (
       </form>
     </div>
   </div>
-)
+</>
 export default NamedDefault;

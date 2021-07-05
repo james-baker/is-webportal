@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import CenteredColumn from "../components/centered-column"
+import ButtondownSignup from "../components/buttondownsignup"
 
 const NamedDefault = ({ data }) => (
   <Layout>
@@ -20,11 +21,12 @@ const NamedDefault = ({ data }) => (
       <p>The short answer is,
       <blockquote>&#8220;a community for people who want to grow.&#8221;</blockquote></p>
 
-      <p>That's it - just people, being and doing together.</p>
+      <p>That's it - Intentional Society is made of people, being and doing together.</p>
       <p>We are building it, 
         learn about <Link to="/who-we-are">who we are</Link>
         learn about <Link to="/what-we-do">what we do</Link>
       </p>
+      <ButtondownSignup></ButtondownSignup>
       <p>if and when your curiosity is piqued, the door is open for you to 
       <Link to="/get-involved">get involved</Link>.</p>
     
