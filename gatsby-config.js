@@ -22,8 +22,9 @@ module.exports = {
       options: {
         webFontsConfig: {
           fonts: {
-            google: [
-              { family: "Open Sans", variants: [400] }, //sigh: https://github.com/hupe1980/gatsby-plugin-webfonts/issues/14
+            google: [ //sigh: https://github.com/hupe1980/gatsby-plugin-webfonts/issues/14
+              { family: "Ovo", variants: [400] }, 
+              { family: "Gudea", variants: [400] }
             ],
           },
         },

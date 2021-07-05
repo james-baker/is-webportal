@@ -6,7 +6,7 @@ import { createMuiTheme } from "@material-ui/core";
 const theme = createMuiTheme({
   typography: {
     fontFamily: [
-        'Open Sans',
+        'Ovo',
         'Helvetica',
         'Arial',
         'sans-serif'
@@ -14,16 +14,16 @@ const theme = createMuiTheme({
   },
   palette: {
     primary: {
-      main: '#333333',
+      main: '#24818E',
     },
     secondary: {
-      main: '#b3dff3',
+      main: '#FFFFFF',
     },
     error: {
       main: '#ff0000',
     },
     background: {
-      default: '#b3dff3',
+      default: '#E8F0EC',
     },
   },
 });

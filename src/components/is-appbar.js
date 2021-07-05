@@ -12,7 +12,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 const useStyles = makeStyles((theme) => ({
   appBar: {
     color: theme.palette.secondary.main,
-    backgroundColor: theme.palette.primary.main
+    backgroundColor: theme.palette.primary.main,
   },
    menuButton: {
     color: "inherit"
@@ -36,7 +36,7 @@ const NamedDefault = () => {
   };
 
   return (
-  <AppBar position="fixed" className={classes.appBar}>
+  <AppBar position="fixed" elevation={0} className={classes.appBar}>
     <Toolbar>
       <Typography variant="h5" className={classes.title}>
         Intentional Society
