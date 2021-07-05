@@ -16,9 +16,6 @@ const NamedDefault = () => (
         <input type="email" name="email" id="bd-email" className={styles.textarea} placeholder="<email address>"></input>
         <input type="hidden" value="1" name="embed"></input>
         <input type="submit" value="Subscribe" className={styles.button}></input>
-        <div style={{textAlign: "right"}}>
-          <a href="https://buttondown.email" target="_blank" rel="noreferrer" className={styles.referral}>Powered by Buttondown.</a>
-        </div>
       </form>
     </div>
   </div>
