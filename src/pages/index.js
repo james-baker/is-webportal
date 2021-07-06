@@ -8,27 +8,26 @@ import ButtondownSignup from "../components/buttondownsignup"
 
 const NamedDefault = ({ data }) => <>
   <Layout>
-  <div style={{ display: "grid" }}>
-    <StaticImage src="../../static/images/bg/top53.jpg" layout="fullWidth" position="absolute" alt=""
-                 style={{ gridArea: "1/1", maxHeight: 500}}/>
-    <div
-        style={{
-          gridArea: "1/1",
-          position: "relative",
-          placeItems: "center", // This centers the other elements inside the hero component
-          display: "grid",
-        }}
-      >
-        <Typography variant="h5">
-          becoming your biggest self<br/>
-          growing with like-minded friends<br/>
-          awareness of self and system<br/>
-          integrating acceptance and intention
-        </Typography>
-      </div>
-  </div>
-    
-    <CenteredColumn>
+    <div style={{ display: "grid" }}>
+      <StaticImage src="../../static/images/bg/top53.jpg" layout="fullWidth" position="absolute" alt=""
+                  style={{ gridArea: "1/1", maxHeight: 500}}/>
+      <div
+          style={{
+            gridArea: "1/1",
+            position: "relative",
+            placeItems: "center", // This centers the other elements inside the hero component
+            display: "grid",
+          }}
+        >
+          <Typography variant="h5" style={{ color: "#FFFFFF"}}>
+            becoming your biggest self<br/>
+            growing with like-minded friends<br/>
+            awareness of self and system<br/>
+            integrating acceptance and intention<br/>&nbsp;<br/>&nbsp;<br/>&nbsp;<br/>&nbsp;
+          </Typography>
+        </div>
+    </div>
+    <CenteredColumn style={{marginTop: "-20px"}}>
       <h3>What is Intentional Society?</h3>
 
       <p>The short answer is,
