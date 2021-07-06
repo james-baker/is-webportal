@@ -27,20 +27,20 @@ const NamedDefault = ({ data }) => <>
           </Typography>
         </div>
     </div>
-    <CenteredColumn style={{marginTop: "-20px"}}>
-      <h3>What is Intentional Society?</h3>
+    <CenteredColumn>
+      TODO: initial orientation text
 
       <p>The short answer is,
       &#8220;a community for people who want to grow.&#8221;</p>
 
       <p>That's it - Intentional Society is made of people, being and doing together.</p>
-      <p>We are building it, 
+      <p>We are building it, ...
         learn about <Link to="/who-we-are">who we are</Link>
         learn about <Link to="/what-we-do">what we do</Link>
       </p>
       <ButtondownSignup></ButtondownSignup>
-      <p>if and when your curiosity is piqued, the door is open for you to 
-      <Link to="/get-involved">get involved</Link>.</p>
+      <p>if and when your curiosity is piqued, the door is open for you 
+        to <Link to="/get-involved">get involved</Link>.</p>
     
     </CenteredColumn>
   </Layout>
