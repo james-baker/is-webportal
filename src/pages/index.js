@@ -10,7 +10,7 @@ const NamedDefault = ({ data }) => <>
   <Layout>
     <div style={{ display: "grid" }}>
       <StaticImage src="../../static/images/bg/top53.jpg" layout="fullWidth" position="absolute" alt=""
-                  style={{ gridArea: "1/1", maxHeight: 500}}/>
+                  style={{ gridArea: "1/1", height: "60vh"}}/>
       <div
           style={{
             gridArea: "1/1",
@@ -20,10 +20,10 @@ const NamedDefault = ({ data }) => <>
           }}
         >
           <Typography variant="h5" style={{ color: "#FFFFFF"}}>
-            becoming your biggest self<br/>
-            growing with like-minded friends<br/>
-            awareness of self and system<br/>
-            integrating acceptance and intention<br/>&nbsp;<br/>&nbsp;<br/>&nbsp;<br/>&nbsp;
+            <p style={{marginLeft:"-8vw"}}>becoming your biggest self</p>
+            <p style={{marginLeft:"5vw"}}>growing with like-minded friends</p>
+            <p style={{marginLeft:"-3vw"}}>awareness of self and system</p>
+            <p style={{marginLeft:"8vw"}}>integrating acceptance and intention</p><br/>&nbsp;<br/>&nbsp;<br/>&nbsp;<br/>&nbsp;
           </Typography>
         </div>
     </div>
