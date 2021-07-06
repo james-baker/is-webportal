@@ -14,9 +14,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 const useStyles = makeStyles((theme) => ({
   appBar: {
     color: theme.palette.secondary.main,
-    /* backgroundColor: theme.palette.primary.main, */
-/*     backgroundImage: "linear-gradient(to right bottom, #2b70c3, #007dc1, #0087b9, #0090ad, #2896a0, #4d9fa0, #69a8a2, #81b1a6, #9cc1b6, #b5d0c7, #cfe0d9, #e8f0ec)", */
-    backgroundImage: "radial-gradient(circle, #2b70c3, #007dc1, #0087b9, #0090ad, #2896a0, #36999f, #429c9e, #4d9f9d, #40a0a5, #31a1af, #1fa2b8, #06a2c2)",
+    backgroundImage: "radial-gradient(circle at 20% -150%, #5c9d93, #519f9a, #44a0a2, #36a1ab, #25a2b5, #109fbb, #009bc1, #0097c6, #008ec7, #0085c8, #0c7bc6, #2b70c3)",
   },
    menuButton: {
     color: "inherit",
