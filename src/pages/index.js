@@ -28,20 +28,17 @@ const NamedDefault = ({ data }) => <>
         </div>
     </div>
     <CenteredColumn>
-      TODO: initial orientation text
+      <p>Intentional Society is a community for people who want to grow.</p>
 
-      <p>The short answer is,
-      &#8220;a community for people who want to grow.&#8221;</p>
+      <p>We meet together to become our best and biggest selves, and thus to grow our capacity 
+        to love and serve both ourselves and humanity.</p>
 
-      <p>That's it - Intentional Society is made of people, being and doing together.</p>
-      <p>We are building it, ...
-        learn about <Link to="/who-we-are">who we are</Link>
-        learn about <Link to="/what-we-do">what we do</Link>
+      <p>That's it - Intentional Society is made of people, being and doing together. 
+        ... and there's also a lot more to the story. Read on to learn more about <Link to="/who-we-are">who we 
+        are</Link> and <Link to="/what-we-do">what we do</Link>, and how 
+        to <Link to="/get-involved">get involved</Link> if and when you feel so called.
       </p>
       <ButtondownSignup></ButtondownSignup>
-      <p>if and when your curiosity is piqued, the door is open for you 
-        to <Link to="/get-involved">get involved</Link>.</p>
-    
     </CenteredColumn>
   </Layout>
 </>
