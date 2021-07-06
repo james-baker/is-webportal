@@ -1,13 +1,15 @@
 import React from "react"
 import { Link } from "gatsby"
+import Typography from '@material-ui/core/Typography';
 import Layout from "../components/layout"
 import CenteredColumn from "../components/centered-column"
+import IsHr from "../components/is-hr"
 
 const NamedDefault = ({ data }) => (
   <Layout>
     <div style={{ height: "5vh" }}></div>
     <CenteredColumn>
-      <h2>What we do</h2>
+    <Typography variant="h3">What we do</Typography>
 
       <p>At the surface layer, right now we primarily <b>talk with one another on video calls</b>.
         Our general sessions are on Sundays, for 1 hour 45 minutes - about the length of 
@@ -25,6 +27,8 @@ const NamedDefault = ({ data }) => (
         by returning to the campfire and telling stories of what we've learned - and then look at 
         the meta level to iterate on the outer loop structure itself.
       </p>
+
+      <IsHr />
 
       <p>At the deeper conceptual layer, what we're doing together is <b>authoring a developmental 
         community of practice with a culture of expanded awareness</b>. There's a conventional script 
@@ -48,6 +52,8 @@ const NamedDefault = ({ data }) => (
         more meaningful connection. 
       </p>
 
+      <IsHr />
+
       <p>To go even deeper into the theoretical model, 
         Developmental <a href="https://en.wikipedia.org/wiki/Constructivism_(philosophy_of_education)">
         constructivism</a> is a fancy way to say that we make meaning, inside ourselves, 
@@ -64,14 +70,14 @@ const NamedDefault = ({ data }) => (
       </p>
 
       <p>In a nod to "<a href="https://www.sloww.co/enlightenment-chop-wood-carry-water/">chop wood, 
-      carry water</a>" the deepest summary of what we do would be something like, 
-      "<b>we practice being, together</b>" - which corresponds to "talk with one another on video calls" and 
-      is also something quite profound. Ultimately, being and doing are 
-      a <a href="https://www.ccl.org/articles/leading-effectively-articles/are-you-facing-a-problem-or-a-polarity/">
-      polarity</a> which, at least in the West, has been culturally tilted towards doing since the 
-      dominance of <a href="https://en.wikipedia.org/wiki/Modernity">modernity</a>. Intentional Society 
-      focuses on the inner work of being, currenlty - and we keep a watchful eye on what kinds of 
-      doing may be calling to us.</p>
+        carry water</a>" the deepest summary of what we do would be something like, 
+        "<b>we practice being, together</b>" - which corresponds to "talk with one another on video calls" and 
+        is also something quite profound. Ultimately, being and doing are 
+        a <a href="https://www.ccl.org/articles/leading-effectively-articles/are-you-facing-a-problem-or-a-polarity/">
+        polarity</a> which, at least in the West, has been culturally tilted towards doing since the 
+        dominance of <a href="https://en.wikipedia.org/wiki/Modernity">modernity</a>. Intentional Society 
+        focuses on the inner work of being, currenlty - and we keep a watchful eye on what kinds of 
+        doing may be calling to us.</p>
     </CenteredColumn>
   </Layout>
 );

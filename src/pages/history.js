@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import Typography from '@material-ui/core/Typography';
 import Layout from "../components/layout"
 import CenteredColumn from "../components/centered-column"
 
@@ -7,7 +8,7 @@ const NamedDefault = ({ data }) => (
   <Layout>
     <div style={{ height: "5vh" }}></div>
     <CenteredColumn>
-      <h2>History</h2>
+      <Typography variant="h3">History</Typography>
 
       <p>Hi, this is James. I'm 
         the founder/<a href="https://workwithsource.com/what-is-source/how-initiatives-start/">source</a>/
@@ -37,7 +38,7 @@ const NamedDefault = ({ data }) => (
         and reconvergence.
       </p>
 
-      <h3>Historical timeline of meetings</h3>
+      <Typography variant="h4">Historical timeline of meetings</Typography>
       <ul>
         <li><div>2021-07-04 Rest week</div></li>
         <li><div>2021-06-27 General Session 2.12 - T-Group</div></li>

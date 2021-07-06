@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import Typography from '@material-ui/core/Typography';
 import Layout from "../components/layout"
 import CenteredColumn from "../components/centered-column"
 
@@ -7,7 +8,7 @@ const NamedDefault = ({ data }) => (
   <Layout>
     <div style={{ height: "5vh" }}></div>
     <CenteredColumn>
-      <h2>Who we are</h2>
+    <Typography variant="h3">Who we are</Typography>
 
       <p>(TODO: Take a fun group photo and add here.)</p>
 
