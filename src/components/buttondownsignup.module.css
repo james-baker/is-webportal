@@ -1,5 +1,5 @@
 .popout {
-  background: #ecf4fa;
+  background: #24818E;
   margin-bottom: 1em;
   margin-top: 1em;
   padding: .5em;
@@ -9,10 +9,10 @@
 .button {
   display: block;
   width: 100%;
-  background: #366fbe;
+  background: #C7E9CC;
   border: 0;
   border-radius: 0.4em;
-  color: #fff;
+  color: #08080F;
   outline: 0;
   padding: 0.5em;
   width: 100%;
