@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import Typography from '@material-ui/core/Typography';
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import CenteredColumn from "../components/centered-column"
@@ -18,10 +19,12 @@ const NamedDefault = ({ data }) => <>
           display: "grid",
         }}
       >
-        becoming your biggest self<br/>
-        growing with like-minded friends<br/>
-        awareness of self and system<br/>
-        integrating acceptance and intention<br/><br/><br/>
+        <Typography variant="h5">
+          becoming your biggest self<br/>
+          growing with like-minded friends<br/>
+          awareness of self and system<br/>
+          integrating acceptance and intention
+        </Typography>
       </div>
   </div>
     
