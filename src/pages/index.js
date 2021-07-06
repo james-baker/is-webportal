@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import CenteredColumn from "../components/centered-column"
 import ButtondownSignup from "../components/buttondownsignup"
 import IsHr from "../components/is-hr"
+import ZoomlinkOrientation from "../components/zoomlink-orientation"
 
 const NamedDefault = ({ data }) => <>
   <Layout>
@@ -41,6 +42,10 @@ const NamedDefault = ({ data }) => <>
         are</Link> and <Link to="/what-we-do">what we do</Link>, and how 
         to <Link to="/get-involved">get involved</Link> if and when you feel so called.
       </p>
+      <IsHr />
+      <p>Our <b>third season launches July 11th!</b> This is a great opportunity to join in as we 
+      take the lessons of our first six months and open our doors to more people. <br />
+      <ZoomlinkOrientation /></p>
       <IsHr />
       <ButtondownSignup></ButtondownSignup>
     </CenteredColumn>
