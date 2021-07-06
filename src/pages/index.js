@@ -5,6 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import CenteredColumn from "../components/centered-column"
 import ButtondownSignup from "../components/buttondownsignup"
+import IsHr from "../components/is-hr"
 
 const NamedDefault = ({ data }) => <>
   <Layout>
@@ -29,15 +30,18 @@ const NamedDefault = ({ data }) => <>
     </div>
     <CenteredColumn>
       <p>Intentional Society is a community for people who want to grow.</p>
+      <IsHr />
+      <p>We meet together to become our best and biggest selves - to practice being 
+        the people we want to be, in more contexts and with more ease and freedom. In  
+        doing so, we also then increase our capacity to love and serve both ourselves and humanity.</p>
 
-      <p>We meet together to become our best and biggest selves, and thus to grow our capacity 
-        to love and serve both ourselves and humanity.</p>
-
-      <p>That's it - Intentional Society is made of people, being and doing together. 
-        ... and there's also a lot more to the story. Read on to learn more about <Link to="/who-we-are">who we 
+      <p>Intentional Society is simply people in process, being and doing together&#8230; 
+         and there's also a lot more to the complete picture, which is still itself in the 
+         process of being discovered. Read on to learn more about <Link to="/who-we-are">who we 
         are</Link> and <Link to="/what-we-do">what we do</Link>, and how 
         to <Link to="/get-involved">get involved</Link> if and when you feel so called.
       </p>
+      <IsHr />
       <ButtondownSignup></ButtondownSignup>
     </CenteredColumn>
   </Layout>
