@@ -41,6 +41,9 @@ const NamedDefault = ({ data }) => <>
       <ZoomlinkOrientation /></p>
       <IsHr />
       <ButtondownSignup></ButtondownSignup>
+      <div style={{textAlign: "right", marginBottom: "-25px"}}>
+        Next page: <Link to="/who-we-are">Who We Are</Link>
+      </div>
     </div>
   </Layout>
 </>

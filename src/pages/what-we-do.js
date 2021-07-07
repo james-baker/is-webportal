@@ -78,6 +78,10 @@ const NamedDefault = ({ data }) => (
         dominance of <a href="https://en.wikipedia.org/wiki/Modernity">modernity</a>. Intentional Society 
         focuses on the inner work of being, currenlty - and we keep a watchful eye on what kinds of 
         doing may be calling to us.</p>
+      
+        <div style={{textAlign: "right", marginBottom: "-25px"}}>
+        Next page: <Link to="/get-involved">Get Involved!</Link>
+      </div>
     </CenteredColumn>
   </Layout>
 );

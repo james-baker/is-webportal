@@ -36,6 +36,10 @@ const NamedDefault = ({ data }) => (
       </p>
 
       <p>Our <Link to="/history">historical timeline</Link> contains a record of these activities.</p>
+
+      <div style={{textAlign: "right", marginBottom: "-25px"}}>
+        Next page: <Link to="/history">History</Link>
+      </div>
     </CenteredColumn>
   </Layout>
 );

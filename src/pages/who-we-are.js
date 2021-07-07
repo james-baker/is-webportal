@@ -60,7 +60,9 @@ const NamedDefault = ({ data }) => (
         a norm, so that we can feel into the desires and intentions we bring to a domain rather 
         than relying on conventional or implicit norms and expectations.
       </p>
-      
+      <div style={{textAlign: "right", marginBottom: "-25px"}}>
+        Next page: <Link to="/what-we-do">What We Do</Link>
+      </div>
     </CenteredColumn>
   </Layout>
 );

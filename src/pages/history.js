@@ -94,6 +94,10 @@ const NamedDefault = ({ data }) => (
         <li><div>2020-12-05 Website deployed</div></li>
         <li><div>2020-11-10 Domain name registered</div></li>
       </ul>
+
+      <div style={{textAlign: "right", marginBottom: "-25px"}}>
+        Next page: <Link to="/questions">Questions</Link>
+      </div>
     </CenteredColumn>
   </Layout>
 );
