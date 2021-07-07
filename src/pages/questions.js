@@ -24,14 +24,20 @@ const NamedDefault = ({ data }) => {
     [`Any chance the meeting time could move? That's <asleep> o'clock my time.`,
     `Probably not, but we haven't ruled it out. 1pm Pacific / 4pm Eastern is meant to 
     be feasible from New Zealand to Western Europe and Africa.`],
+    [`Is Intentional Society online because of the pandemic?`,
+    `A little yes, mainly no. Obviously the pandemic did a lot to spread and normalize 
+    the use of video calls - but this is online intentionally and will stay that way 
+    at its core, even if we extend ourselves into some future physical activities in 
+    high-density locales.`],
     [`Do you have a European/Asian chapter?`,
-    `No, and we don't see having one in our near future. We'd like to find and recommend 
+    `No, sorry, and we don't see having one in our near future. We'd like to find and recommend 
     some similar communities - please let us know if you have candidates.`],
     [`How big are your meetings?`,
     `We've stayed small and fairly quiet in Q1 and Q2, looking for that first handful 
     of passionate co-creators. 60 total orientations, 40 at-least-once attendees, and any given 
     Sunday has been in the 6-12 range. We'll probably cap Q3 at no more than about 25,
-    should it come to that.`],
+    should it come to that. We do intend to grow over time, but resist pursuing growth 
+    for the sake of status value`],
     [`Tell me straight, are you utopians? Are you trying to save the world?`,
     `Saving the world is in fact an explicit non-goal of ours. Now, that isn't to say 
     we're against that outcome - we'd like nothing more than for humanity to raise 

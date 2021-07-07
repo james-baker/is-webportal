@@ -10,13 +10,13 @@ const NamedDefault = ({ data }) => (
     <CenteredColumn>
       <Typography variant="h3">History</Typography>
 
-      <p>Hi, this is James. I'm 
+      <p>Hi, James here. I'm 
         the founder/<a href="https://workwithsource.com/what-is-source/how-initiatives-start/">source</a>/
         <a href="https://www.microsolidarity.cc/articles/2-update-2020#1-initiators">caller</a> of 
         Intentional Society, however you'd like to call it. 
         When I retired from my corporate career at the onset of the pandemic in 2020, I'd been 
         collecting thoughts and ideas for a decade about how organizations function and grow, 
-        while looking for meaning, truth, and the "why?"s of life for a few decades before that. 
+        while looking for meaning, truth, and the “why?”s of life for a few decades before that. 
         I'd had some transformational times in my personal develoment, and I wanted to<br/>
         <ol>
           <li>keep growing myself</li>
@@ -29,16 +29,16 @@ const NamedDefault = ({ data }) => (
         December, and started weekly meetings of Intentional Society in January 2021.
       </p>
 
-      <p>The first burst ended up being about three months long, and focused on forming up using 
+      <p>The first series ended up naturally being about three months long, focused on forming up using 
         whole-group relational practices. That was great - and then we wanted to go deeper. Thus in 
         Q2 the <a href="https://buttondown.email/intentionalsociety/archive/intentional-society-launch-the-boats/">voyages
         </a> model emerged, where we made a few crews and went on a five-week sailing expedition in small 
         groups. That was great - but then we missed the wider community a bit too. Thus, our third 
-        season integrates both into an intentional arc of collective relationship, divergent exploration, 
-        and reconvergence.
+        season integrates both ends of that pendulum into an intentional arc of collective 
+        relationship, divergent exploration, and reconvergence.
       </p>
 
-      <Typography variant="h4">Historical timeline of meetings</Typography>
+      <Typography variant="h4">Timeline of past meetings</Typography>
       <ul>
         <li><div>2021-07-04 Rest week</div></li>
         <li><div>2021-06-27 General Session 2.12 - T-Group</div></li>
