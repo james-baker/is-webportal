@@ -40,6 +40,8 @@ const NamedDefault = ({ data }) => <>
         take the lessons of our first six months and open our doors to more people. <br />
       <ZoomlinkOrientation /></p>
       <IsHr />
+      <p>Want to follow along with what we're doing and learning? 
+      Enter your email here to subscribe to our weekly update newsletter:</p>
       <ButtondownSignup></ButtondownSignup>
       <div style={{textAlign: "right", marginBottom: "-25px"}}>
         Next page: <Link to="/who-we-are">Who We Are</Link>
