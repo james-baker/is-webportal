@@ -21,7 +21,7 @@ const NamedDefault = ({ data }) => <>
         <p style={{marginLeft:"3vw"}}>integrating being and doing</p><br/>&nbsp;<br/>&nbsp;<br/>&nbsp;<br/>&nbsp;
       </Typography>
     </div>
-    <div style={{margin: "-12vh auto 0", minWidth: "300px", maxWidth: "960px", padding: "0 60px"}}>
+    <div style={{margin: "-12vh auto 0", minWidth: "300px", maxWidth: "960px", padding: "0 55px"}}>
       <p>Intentional Society is a community for people who want to grow.</p>
       <IsHr />
       <p>We meet together to become our best and biggest selves - to practice being 
