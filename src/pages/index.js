@@ -3,34 +3,25 @@ import { Link } from "gatsby"
 import Typography from '@material-ui/core/Typography';
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
-import CenteredColumn from "../components/centered-column"
 import ButtondownSignup from "../components/buttondownsignup"
 import IsHr from "../components/is-hr"
 import ZoomlinkOrientation from "../components/zoomlink-orientation"
 
 const NamedDefault = ({ data }) => <>
   <Layout>
-    <div style={{ display: "grid" }}>
-      <StaticImage src="../../static/images/bg/E7EFEBbg.png" layout="fullWidth" position="absolute" alt=""
-                  imgStyle={{objectFit: "fill"}}
-                  loading="eager" style={{ gridArea: "1/1", height: "60vh"}}/>
-      <div
-          style={{
-            gridArea: "1/1",
-            position: "relative",
-            placeItems: "center", // This centers the other elements inside the hero component
-            display: "grid",
-          }}
-        >
-          <Typography variant="h5" style={{ color: "#FFFFFF"}}>
-            <p style={{marginLeft:"-1vw"}}>becoming your biggest self</p>
-            <p style={{marginLeft:"5vw"}}>growing with like-minded friends</p>
-            <p style={{marginLeft:"-3vw"}}>awareness of self and system</p>
-            <p style={{marginLeft:"2vw"}}>integrating acceptance and intention</p><br/>&nbsp;<br/>&nbsp;<br/>&nbsp;<br/>&nbsp;
-          </Typography>
-        </div>
+    <StaticImage src="../../static/images/bg/E7EFEBbg.png" layout="fullWidth" alt="" loading="eager"
+                style={{ height: "60vh", zIndex: -1, position: "absolute", 
+                        top: "0px", left: "0px", width: "100vw"}}
+                imgStyle={{objectFit: "fill"}}/>
+    <div style={{  minWidth: "360px", maxWidth: "400px", margin: "0 auto" }}>
+      <Typography variant="h5" style={{ color: "#FFFFFF"}}>
+        <p style={{marginLeft:"1vw"}}>become your biggest self</p>
+        <p style={{marginLeft:"5vw"}}>grow with like-minded friends</p>
+        <p style={{marginLeft:"-1vw"}}>self-awareness, system perspective</p>
+        <p style={{marginLeft:"3vw"}}>integrating being and doing</p><br/>&nbsp;<br/>&nbsp;<br/>&nbsp;<br/>&nbsp;
+      </Typography>
     </div>
-    <CenteredColumn>
+    <div style={{margin: "-12vh auto 0", minWidth: "300px", maxWidth: "960px", padding: "0 60px"}}>
       <p>Intentional Society is a community for people who want to grow.</p>
       <IsHr />
       <p>We meet together to become our best and biggest selves - to practice being 
@@ -49,7 +40,7 @@ const NamedDefault = ({ data }) => <>
       <ZoomlinkOrientation /></p>
       <IsHr />
       <ButtondownSignup></ButtondownSignup>
-    </CenteredColumn>
+    </div>
   </Layout>
 </>
 export default NamedDefault;
