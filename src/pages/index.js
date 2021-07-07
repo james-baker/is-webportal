@@ -11,7 +11,7 @@ const NamedDefault = ({ data }) => <>
   <Layout>
     <StaticImage src="../../static/images/bg/E7EFEBbg.png" layout="fullWidth" alt="" loading="eager"
                 style={{ height: "60vh", zIndex: -1, position: "absolute", 
-                        top: "0px", left: "0px", width: "100vw"}}
+                        top: "0px", left: "0px", right: "0px"}}
                 imgStyle={{objectFit: "fill"}}/>
     <div style={{  minWidth: "360px", maxWidth: "400px", margin: "0 auto" }}>
       <Typography variant="h5" style={{ color: "#FFFFFF"}}>
